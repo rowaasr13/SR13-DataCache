@@ -8,7 +8,7 @@ local wipe = wipe
 -- [AUTOLOCAL END]
 
 local active_maw_buffs = {}
-a_env.a_export.active_talents = active_maw_buffs
+a_env.a_export.active_maw_buffs = active_maw_buffs
 
 local function active_maw_buffs_update()
    for idx = 1, 200 do
